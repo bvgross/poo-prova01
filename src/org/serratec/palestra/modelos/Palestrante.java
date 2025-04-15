@@ -9,13 +9,8 @@ public class Palestrante extends Pessoa{
     }
 
     @Override
-    public void exibirDados(){
-
+    public String exibirDados(){
+        return "Nome: " + nome + " | " + "CPF: " + cpf + " | " + "Tema da Palestra: " + temaPalestra;
     }
 
-    @Override
-    public String toString() {
-        return super.toString() + " | Tema da Palestra: " + temaPalestra;
-    }
-    
 }

@@ -9,13 +9,8 @@ public class Participante extends Pessoa{
     }
 
     @Override
-    public void exibirDados(){
-
-    }
-
-    @Override
-    public String toString() {
-        return super.toString() + " | e-mail: " + email;
+    public String exibirDados(){
+        return "Nome: " + nome + " | " + "CPF: " + cpf + " | " + "e-mail: " + email;
     }
 
 }

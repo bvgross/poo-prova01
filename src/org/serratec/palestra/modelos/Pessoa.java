@@ -17,11 +17,6 @@ public abstract class Pessoa {
         return cpf;
     }
 
-    public abstract void exibirDados();
-
-    @Override
-    public String toString() {
-        return "Nome: " + nome + " | CPF: " + cpf;
-    }
+    public abstract String exibirDados();
 
 }
